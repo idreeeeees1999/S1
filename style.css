@@ -1,0 +1,75 @@
+
+.header {
+    background-image: url("resources/header.png");
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 50px;
+}
+
+.dropdown-large{ 
+    padding:20px;
+    min-width:600px; 
+}
+
+.navlink {
+color: #333;
+}
+
+.navlink:hover{
+    color: gray;
+}
+
+.navlink2 {
+    color: #333;
+    }
+    
+.navlink2:hover{
+        color: white;
+        background-color: #333;
+
+}
+.dropdown-menu {
+    background-color: #333;
+}
+
+a {
+    color: white;
+
+}
+
+a:hover{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer {
+      background-color: #333;
+      height: 220px;
+  }
+
+  .footerlink {
+      color: red;
+  }
+
+  .footerlink:hover{
+      color: darkred;
+  }
